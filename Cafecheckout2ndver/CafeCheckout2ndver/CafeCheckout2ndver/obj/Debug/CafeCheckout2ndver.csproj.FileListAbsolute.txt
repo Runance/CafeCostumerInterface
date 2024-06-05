@@ -45,3 +45,7 @@ C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\C
 C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\obj\Debug\CafeCheckout2ndver.About_Us.resources
 C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\obj\Debug\CafeCheckout2ndver.RecieptForm.resources
 C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\obj\Debug\CafeCheckout2ndver.OnScreenKeyboard.resources
+C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\bin\Debug\CafeCheckout2ndver.exe.manifest
+C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\bin\Debug\CafeCheckout2ndver.application
+C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\obj\Debug\CafeCheckout2ndver.exe.manifest
+C:\Users\Mark Rainier\OneDrive\Documents\Cafecheckout2ndver\CafeCheckout2ndver\CafeCheckout2ndver\obj\Debug\CafeCheckout2ndver.application

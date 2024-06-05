@@ -55,11 +55,11 @@
             this.Cafe_Checkout_Label.AutoSize = false;
             this.Cafe_Checkout_Label.BackColor = System.Drawing.Color.Transparent;
             this.Cafe_Checkout_Label.Font = new System.Drawing.Font("Rockwell", 75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cafe_Checkout_Label.Location = new System.Drawing.Point(176, 87);
+            this.Cafe_Checkout_Label.Location = new System.Drawing.Point(216, 87);
             this.Cafe_Checkout_Label.Name = "Cafe_Checkout_Label";
-            this.Cafe_Checkout_Label.Size = new System.Drawing.Size(746, 122);
+            this.Cafe_Checkout_Label.Size = new System.Drawing.Size(667, 122);
             this.Cafe_Checkout_Label.TabIndex = 3;
-            this.Cafe_Checkout_Label.Text = "\"CafeCheckOut\"";
+            this.Cafe_Checkout_Label.Text = "CafeCheckOut";
             this.Cafe_Checkout_Label.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
             // linkLabel1

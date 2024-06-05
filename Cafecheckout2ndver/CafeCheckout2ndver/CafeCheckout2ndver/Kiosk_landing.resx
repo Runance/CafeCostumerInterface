@@ -117,29 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="For_Here_Butt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="To_Go_Butt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Cafe_Checkout_Label.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Description.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="About_Butt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF7svVWYbdXVbp27/3wnbpAAgUCCBRJCgmwgRoI7bCQQQnCPEDTBgkOC
+        vwAADr8BOAVTJAAA/7JJREFUeF7svVWYbdXVbp27/3wnbpAAgUCCBRJCgmwgRoI7bCQQQnCPEDTBgkOC
         u7sfd3d3d3d31/V/beS8lbH67mNU9dX7JTxPe9p615qrdlXt2ty0mnO+6//+3/+76P/TjljYDf/n//wf
         d0cs7Ib//b//d9oz/tf/+l9pz/if//N/pt3zP/7H/3B3xMJu+O///b+7O2LB/m//7b8tPacdsbAb/ut/
         /a/ujljYDf/lv/yXtGf85//8n9Oe8Z/+039a2TP+43/8j2n3/If/8B/cnXHPv//3/97dEQu74d/9u3+X

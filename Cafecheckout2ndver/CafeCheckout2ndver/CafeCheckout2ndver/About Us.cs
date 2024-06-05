@@ -105,6 +105,7 @@ namespace CafeCheckout2ndver
         private void About_Butt_Click(object sender, EventArgs e)
         {
             Kiosk_interface kiosk = new Kiosk_interface();
+            kiosk.Refresh();
             kiosk.Show();
             this.Close();
         }

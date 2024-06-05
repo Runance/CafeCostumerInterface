@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kiosk_ordering));
-            this.Menu_Tabs = new Guna.UI2.WinForms.Guna2TabControl();
-            this.Beverage_1 = new System.Windows.Forms.TabPage();
+            this.MenuTab = new Guna.UI2.WinForms.Guna2TabControl();
+            this.ProductTab1 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -39,7 +39,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Beverage_2 = new System.Windows.Forms.TabPage();
+            this.ProductTab2 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
@@ -48,7 +48,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.Beverage_3 = new System.Windows.Forms.TabPage();
+            this.ProductTab3 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
@@ -57,7 +57,7 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.Pastry_1 = new System.Windows.Forms.TabPage();
+            this.ProductTab4 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
@@ -66,7 +66,16 @@
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.AddOns_1 = new System.Windows.Forms.TabPage();
+            this.ProductTab5 = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.AddonTab1 = new System.Windows.Forms.TabPage();
             this.AdoflowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.AdoflowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.AdoflowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -75,7 +84,7 @@
             this.AdopictureBox3 = new System.Windows.Forms.PictureBox();
             this.AdopictureBox2 = new System.Windows.Forms.PictureBox();
             this.AdopictureBox1 = new System.Windows.Forms.PictureBox();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.AddonTab5 = new System.Windows.Forms.TabPage();
             this.AdoflowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.AdoflowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.AdoflowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
@@ -95,93 +104,99 @@
             this.label1 = new System.Windows.Forms.Label();
             this.AddOnsQuantityTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.Cancel = new Guna.UI2.WinForms.Guna2Button();
-            this.Menu_Tabs.SuspendLayout();
-            this.Beverage_1.SuspendLayout();
+            this.MenuTab.SuspendLayout();
+            this.ProductTab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.Beverage_2.SuspendLayout();
+            this.ProductTab2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.Beverage_3.SuspendLayout();
+            this.ProductTab3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.Pastry_1.SuspendLayout();
+            this.ProductTab4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.AddOns_1.SuspendLayout();
+            this.ProductTab5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.AddonTab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox1)).BeginInit();
-            this.tabPage1.SuspendLayout();
+            this.AddonTab5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // Menu_Tabs
+            // MenuTab
             // 
-            this.Menu_Tabs.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.Menu_Tabs.Controls.Add(this.Beverage_1);
-            this.Menu_Tabs.Controls.Add(this.Beverage_2);
-            this.Menu_Tabs.Controls.Add(this.Beverage_3);
-            this.Menu_Tabs.Controls.Add(this.Pastry_1);
-            this.Menu_Tabs.Controls.Add(this.AddOns_1);
-            this.Menu_Tabs.Controls.Add(this.tabPage1);
-            this.Menu_Tabs.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic);
-            this.Menu_Tabs.ItemSize = new System.Drawing.Size(180, 40);
-            this.Menu_Tabs.Location = new System.Drawing.Point(28, 66);
-            this.Menu_Tabs.Name = "Menu_Tabs";
-            this.Menu_Tabs.SelectedIndex = 0;
-            this.Menu_Tabs.Size = new System.Drawing.Size(1058, 467);
-            this.Menu_Tabs.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.Menu_Tabs.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.Menu_Tabs.TabButtonHoverState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Menu_Tabs.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.Menu_Tabs.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.Menu_Tabs.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.Menu_Tabs.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.Menu_Tabs.TabButtonIdleState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic);
-            this.Menu_Tabs.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.Menu_Tabs.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.Menu_Tabs.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.Menu_Tabs.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
-            this.Menu_Tabs.TabButtonSelectedState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic);
-            this.Menu_Tabs.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
-            this.Menu_Tabs.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.Menu_Tabs.TabButtonSize = new System.Drawing.Size(180, 40);
-            this.Menu_Tabs.TabIndex = 0;
-            this.Menu_Tabs.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.MenuTab.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.MenuTab.Controls.Add(this.ProductTab1);
+            this.MenuTab.Controls.Add(this.ProductTab2);
+            this.MenuTab.Controls.Add(this.ProductTab3);
+            this.MenuTab.Controls.Add(this.ProductTab4);
+            this.MenuTab.Controls.Add(this.ProductTab5);
+            this.MenuTab.Controls.Add(this.AddonTab1);
+            this.MenuTab.Controls.Add(this.AddonTab5);
+            this.MenuTab.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic);
+            this.MenuTab.ItemSize = new System.Drawing.Size(180, 40);
+            this.MenuTab.Location = new System.Drawing.Point(28, 66);
+            this.MenuTab.Name = "MenuTab";
+            this.MenuTab.SelectedIndex = 0;
+            this.MenuTab.Size = new System.Drawing.Size(1058, 467);
+            this.MenuTab.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.MenuTab.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.MenuTab.TabButtonHoverState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuTab.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
+            this.MenuTab.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.MenuTab.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.MenuTab.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.MenuTab.TabButtonIdleState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic);
+            this.MenuTab.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.MenuTab.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.MenuTab.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.MenuTab.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
+            this.MenuTab.TabButtonSelectedState.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Italic);
+            this.MenuTab.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
+            this.MenuTab.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
+            this.MenuTab.TabButtonSize = new System.Drawing.Size(180, 40);
+            this.MenuTab.TabIndex = 0;
+            this.MenuTab.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             // 
-            // Beverage_1
+            // ProductTab1
             // 
-            this.Beverage_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Beverage_1.BackgroundImage")));
-            this.Beverage_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Beverage_1.Controls.Add(this.flowLayoutPanel4);
-            this.Beverage_1.Controls.Add(this.flowLayoutPanel3);
-            this.Beverage_1.Controls.Add(this.flowLayoutPanel2);
-            this.Beverage_1.Controls.Add(this.flowLayoutPanel1);
-            this.Beverage_1.Controls.Add(this.pictureBox4);
-            this.Beverage_1.Controls.Add(this.pictureBox3);
-            this.Beverage_1.Controls.Add(this.pictureBox2);
-            this.Beverage_1.Controls.Add(this.pictureBox1);
-            this.Beverage_1.Font = new System.Drawing.Font("Rage Italic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Beverage_1.Location = new System.Drawing.Point(184, 4);
-            this.Beverage_1.Name = "Beverage_1";
-            this.Beverage_1.Padding = new System.Windows.Forms.Padding(3);
-            this.Beverage_1.Size = new System.Drawing.Size(870, 459);
-            this.Beverage_1.TabIndex = 0;
-            this.Beverage_1.Text = "Combo Products 1";
-            this.Beverage_1.UseVisualStyleBackColor = true;
+            this.ProductTab1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProductTab1.BackgroundImage")));
+            this.ProductTab1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProductTab1.Controls.Add(this.flowLayoutPanel4);
+            this.ProductTab1.Controls.Add(this.flowLayoutPanel3);
+            this.ProductTab1.Controls.Add(this.flowLayoutPanel2);
+            this.ProductTab1.Controls.Add(this.flowLayoutPanel1);
+            this.ProductTab1.Controls.Add(this.pictureBox4);
+            this.ProductTab1.Controls.Add(this.pictureBox3);
+            this.ProductTab1.Controls.Add(this.pictureBox2);
+            this.ProductTab1.Controls.Add(this.pictureBox1);
+            this.ProductTab1.Font = new System.Drawing.Font("Rage Italic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductTab1.Location = new System.Drawing.Point(184, 4);
+            this.ProductTab1.Name = "ProductTab1";
+            this.ProductTab1.Padding = new System.Windows.Forms.Padding(3);
+            this.ProductTab1.Size = new System.Drawing.Size(870, 459);
+            this.ProductTab1.TabIndex = 0;
+            this.ProductTab1.Text = "Beverage Products 1";
+            this.ProductTab1.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel4
             // 
@@ -251,25 +266,25 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Beverage_2
+            // ProductTab2
             // 
-            this.Beverage_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Beverage_2.BackgroundImage")));
-            this.Beverage_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Beverage_2.Controls.Add(this.flowLayoutPanel8);
-            this.Beverage_2.Controls.Add(this.flowLayoutPanel7);
-            this.Beverage_2.Controls.Add(this.flowLayoutPanel6);
-            this.Beverage_2.Controls.Add(this.flowLayoutPanel5);
-            this.Beverage_2.Controls.Add(this.pictureBox8);
-            this.Beverage_2.Controls.Add(this.pictureBox7);
-            this.Beverage_2.Controls.Add(this.pictureBox6);
-            this.Beverage_2.Controls.Add(this.pictureBox5);
-            this.Beverage_2.Location = new System.Drawing.Point(184, 4);
-            this.Beverage_2.Name = "Beverage_2";
-            this.Beverage_2.Padding = new System.Windows.Forms.Padding(3);
-            this.Beverage_2.Size = new System.Drawing.Size(870, 459);
-            this.Beverage_2.TabIndex = 1;
-            this.Beverage_2.Text = "Beverage Products 1";
-            this.Beverage_2.UseVisualStyleBackColor = true;
+            this.ProductTab2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProductTab2.BackgroundImage")));
+            this.ProductTab2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProductTab2.Controls.Add(this.flowLayoutPanel8);
+            this.ProductTab2.Controls.Add(this.flowLayoutPanel7);
+            this.ProductTab2.Controls.Add(this.flowLayoutPanel6);
+            this.ProductTab2.Controls.Add(this.flowLayoutPanel5);
+            this.ProductTab2.Controls.Add(this.pictureBox8);
+            this.ProductTab2.Controls.Add(this.pictureBox7);
+            this.ProductTab2.Controls.Add(this.pictureBox6);
+            this.ProductTab2.Controls.Add(this.pictureBox5);
+            this.ProductTab2.Location = new System.Drawing.Point(184, 4);
+            this.ProductTab2.Name = "ProductTab2";
+            this.ProductTab2.Padding = new System.Windows.Forms.Padding(3);
+            this.ProductTab2.Size = new System.Drawing.Size(870, 459);
+            this.ProductTab2.TabIndex = 1;
+            this.ProductTab2.Text = "Beverage Products 2";
+            this.ProductTab2.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel8
             // 
@@ -339,25 +354,25 @@
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
             // 
-            // Beverage_3
+            // ProductTab3
             // 
-            this.Beverage_3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Beverage_3.BackgroundImage")));
-            this.Beverage_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Beverage_3.Controls.Add(this.flowLayoutPanel12);
-            this.Beverage_3.Controls.Add(this.flowLayoutPanel11);
-            this.Beverage_3.Controls.Add(this.flowLayoutPanel10);
-            this.Beverage_3.Controls.Add(this.flowLayoutPanel9);
-            this.Beverage_3.Controls.Add(this.pictureBox12);
-            this.Beverage_3.Controls.Add(this.pictureBox11);
-            this.Beverage_3.Controls.Add(this.pictureBox10);
-            this.Beverage_3.Controls.Add(this.pictureBox9);
-            this.Beverage_3.Location = new System.Drawing.Point(184, 4);
-            this.Beverage_3.Name = "Beverage_3";
-            this.Beverage_3.Padding = new System.Windows.Forms.Padding(3);
-            this.Beverage_3.Size = new System.Drawing.Size(870, 459);
-            this.Beverage_3.TabIndex = 2;
-            this.Beverage_3.Text = "Beverage Products 2";
-            this.Beverage_3.UseVisualStyleBackColor = true;
+            this.ProductTab3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProductTab3.BackgroundImage")));
+            this.ProductTab3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProductTab3.Controls.Add(this.flowLayoutPanel12);
+            this.ProductTab3.Controls.Add(this.flowLayoutPanel11);
+            this.ProductTab3.Controls.Add(this.flowLayoutPanel10);
+            this.ProductTab3.Controls.Add(this.flowLayoutPanel9);
+            this.ProductTab3.Controls.Add(this.pictureBox12);
+            this.ProductTab3.Controls.Add(this.pictureBox11);
+            this.ProductTab3.Controls.Add(this.pictureBox10);
+            this.ProductTab3.Controls.Add(this.pictureBox9);
+            this.ProductTab3.Location = new System.Drawing.Point(184, 4);
+            this.ProductTab3.Name = "ProductTab3";
+            this.ProductTab3.Padding = new System.Windows.Forms.Padding(3);
+            this.ProductTab3.Size = new System.Drawing.Size(870, 459);
+            this.ProductTab3.TabIndex = 2;
+            this.ProductTab3.Text = "Beverage Products 3";
+            this.ProductTab3.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel12
             // 
@@ -427,25 +442,25 @@
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
             // 
-            // Pastry_1
+            // ProductTab4
             // 
-            this.Pastry_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pastry_1.BackgroundImage")));
-            this.Pastry_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pastry_1.Controls.Add(this.flowLayoutPanel14);
-            this.Pastry_1.Controls.Add(this.flowLayoutPanel13);
-            this.Pastry_1.Controls.Add(this.flowLayoutPanel16);
-            this.Pastry_1.Controls.Add(this.flowLayoutPanel15);
-            this.Pastry_1.Controls.Add(this.pictureBox16);
-            this.Pastry_1.Controls.Add(this.pictureBox15);
-            this.Pastry_1.Controls.Add(this.pictureBox14);
-            this.Pastry_1.Controls.Add(this.pictureBox13);
-            this.Pastry_1.Location = new System.Drawing.Point(184, 4);
-            this.Pastry_1.Name = "Pastry_1";
-            this.Pastry_1.Padding = new System.Windows.Forms.Padding(3);
-            this.Pastry_1.Size = new System.Drawing.Size(870, 459);
-            this.Pastry_1.TabIndex = 3;
-            this.Pastry_1.Text = "Beverage Products 3";
-            this.Pastry_1.UseVisualStyleBackColor = true;
+            this.ProductTab4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProductTab4.BackgroundImage")));
+            this.ProductTab4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProductTab4.Controls.Add(this.flowLayoutPanel14);
+            this.ProductTab4.Controls.Add(this.flowLayoutPanel13);
+            this.ProductTab4.Controls.Add(this.flowLayoutPanel16);
+            this.ProductTab4.Controls.Add(this.flowLayoutPanel15);
+            this.ProductTab4.Controls.Add(this.pictureBox16);
+            this.ProductTab4.Controls.Add(this.pictureBox15);
+            this.ProductTab4.Controls.Add(this.pictureBox14);
+            this.ProductTab4.Controls.Add(this.pictureBox13);
+            this.ProductTab4.Location = new System.Drawing.Point(184, 4);
+            this.ProductTab4.Name = "ProductTab4";
+            this.ProductTab4.Padding = new System.Windows.Forms.Padding(3);
+            this.ProductTab4.Size = new System.Drawing.Size(870, 459);
+            this.ProductTab4.TabIndex = 3;
+            this.ProductTab4.Text = "Beverage Products 4";
+            this.ProductTab4.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel14
             // 
@@ -515,64 +530,152 @@
             this.pictureBox13.TabIndex = 24;
             this.pictureBox13.TabStop = false;
             // 
-            // AddOns_1
+            // ProductTab5
             // 
-            this.AddOns_1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AddOns_1.BackgroundImage")));
-            this.AddOns_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.AddOns_1.Controls.Add(this.AdoflowLayoutPanel4);
-            this.AddOns_1.Controls.Add(this.AdoflowLayoutPanel3);
-            this.AddOns_1.Controls.Add(this.AdoflowLayoutPanel2);
-            this.AddOns_1.Controls.Add(this.AdoflowLayoutPanel1);
-            this.AddOns_1.Controls.Add(this.AdopictureBox4);
-            this.AddOns_1.Controls.Add(this.AdopictureBox3);
-            this.AddOns_1.Controls.Add(this.AdopictureBox2);
-            this.AddOns_1.Controls.Add(this.AdopictureBox1);
-            this.AddOns_1.Location = new System.Drawing.Point(184, 4);
-            this.AddOns_1.Name = "AddOns_1";
-            this.AddOns_1.Padding = new System.Windows.Forms.Padding(3);
-            this.AddOns_1.Size = new System.Drawing.Size(870, 459);
-            this.AddOns_1.TabIndex = 5;
-            this.AddOns_1.Text = "Addons Choices 1";
-            this.AddOns_1.UseVisualStyleBackColor = true;
+            this.ProductTab5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ProductTab5.BackgroundImage")));
+            this.ProductTab5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ProductTab5.Controls.Add(this.flowLayoutPanel20);
+            this.ProductTab5.Controls.Add(this.flowLayoutPanel19);
+            this.ProductTab5.Controls.Add(this.flowLayoutPanel18);
+            this.ProductTab5.Controls.Add(this.flowLayoutPanel17);
+            this.ProductTab5.Controls.Add(this.pictureBox20);
+            this.ProductTab5.Controls.Add(this.pictureBox19);
+            this.ProductTab5.Controls.Add(this.pictureBox18);
+            this.ProductTab5.Controls.Add(this.pictureBox17);
+            this.ProductTab5.Location = new System.Drawing.Point(184, 4);
+            this.ProductTab5.Name = "ProductTab5";
+            this.ProductTab5.Padding = new System.Windows.Forms.Padding(3);
+            this.ProductTab5.Size = new System.Drawing.Size(870, 459);
+            this.ProductTab5.TabIndex = 5;
+            this.ProductTab5.Text = "Beverage Products 5";
+            this.ProductTab5.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel20
+            // 
+            this.flowLayoutPanel20.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel20.Location = new System.Drawing.Point(659, 248);
+            this.flowLayoutPanel20.Name = "flowLayoutPanel20";
+            this.flowLayoutPanel20.Size = new System.Drawing.Size(170, 178);
+            this.flowLayoutPanel20.TabIndex = 39;
+            // 
+            // flowLayoutPanel19
+            // 
+            this.flowLayoutPanel19.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel19.Location = new System.Drawing.Point(452, 248);
+            this.flowLayoutPanel19.Name = "flowLayoutPanel19";
+            this.flowLayoutPanel19.Size = new System.Drawing.Size(170, 178);
+            this.flowLayoutPanel19.TabIndex = 38;
+            // 
+            // flowLayoutPanel18
+            // 
+            this.flowLayoutPanel18.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel18.Location = new System.Drawing.Point(244, 248);
+            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
+            this.flowLayoutPanel18.Size = new System.Drawing.Size(170, 178);
+            this.flowLayoutPanel18.TabIndex = 37;
+            // 
+            // flowLayoutPanel17
+            // 
+            this.flowLayoutPanel17.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel17.Location = new System.Drawing.Point(42, 248);
+            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
+            this.flowLayoutPanel17.Size = new System.Drawing.Size(170, 178);
+            this.flowLayoutPanel17.TabIndex = 36;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Location = new System.Drawing.Point(659, 33);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(170, 178);
+            this.pictureBox20.TabIndex = 35;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Location = new System.Drawing.Point(452, 33);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(170, 178);
+            this.pictureBox19.TabIndex = 34;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Location = new System.Drawing.Point(244, 33);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(170, 178);
+            this.pictureBox18.TabIndex = 33;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(42, 33);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(170, 178);
+            this.pictureBox17.TabIndex = 32;
+            this.pictureBox17.TabStop = false;
+            // 
+            // AddonTab1
+            // 
+            this.AddonTab1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AddonTab1.BackgroundImage")));
+            this.AddonTab1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AddonTab1.Controls.Add(this.AdoflowLayoutPanel4);
+            this.AddonTab1.Controls.Add(this.AdoflowLayoutPanel3);
+            this.AddonTab1.Controls.Add(this.AdoflowLayoutPanel2);
+            this.AddonTab1.Controls.Add(this.AdoflowLayoutPanel1);
+            this.AddonTab1.Controls.Add(this.AdopictureBox4);
+            this.AddonTab1.Controls.Add(this.AdopictureBox3);
+            this.AddonTab1.Controls.Add(this.AdopictureBox2);
+            this.AddonTab1.Controls.Add(this.AdopictureBox1);
+            this.AddonTab1.Location = new System.Drawing.Point(184, 4);
+            this.AddonTab1.Name = "AddonTab1";
+            this.AddonTab1.Padding = new System.Windows.Forms.Padding(3);
+            this.AddonTab1.Size = new System.Drawing.Size(870, 459);
+            this.AddonTab1.TabIndex = 6;
+            this.AddonTab1.Text = "Addons Choices 1";
+            this.AddonTab1.UseVisualStyleBackColor = true;
             // 
             // AdoflowLayoutPanel4
             // 
             this.AdoflowLayoutPanel4.BackColor = System.Drawing.Color.White;
+            this.AdoflowLayoutPanel4.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoflowLayoutPanel4.Location = new System.Drawing.Point(659, 248);
             this.AdoflowLayoutPanel4.Name = "AdoflowLayoutPanel4";
             this.AdoflowLayoutPanel4.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel4.TabIndex = 39;
+            this.AdoflowLayoutPanel4.TabIndex = 47;
             // 
             // AdoflowLayoutPanel3
             // 
             this.AdoflowLayoutPanel3.BackColor = System.Drawing.Color.White;
+            this.AdoflowLayoutPanel3.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoflowLayoutPanel3.Location = new System.Drawing.Point(452, 248);
             this.AdoflowLayoutPanel3.Name = "AdoflowLayoutPanel3";
             this.AdoflowLayoutPanel3.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel3.TabIndex = 38;
+            this.AdoflowLayoutPanel3.TabIndex = 46;
             // 
             // AdoflowLayoutPanel2
             // 
             this.AdoflowLayoutPanel2.BackColor = System.Drawing.Color.White;
+            this.AdoflowLayoutPanel2.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoflowLayoutPanel2.Location = new System.Drawing.Point(244, 248);
             this.AdoflowLayoutPanel2.Name = "AdoflowLayoutPanel2";
             this.AdoflowLayoutPanel2.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel2.TabIndex = 37;
+            this.AdoflowLayoutPanel2.TabIndex = 45;
             // 
             // AdoflowLayoutPanel1
             // 
             this.AdoflowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.AdoflowLayoutPanel1.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdoflowLayoutPanel1.Location = new System.Drawing.Point(42, 248);
             this.AdoflowLayoutPanel1.Name = "AdoflowLayoutPanel1";
             this.AdoflowLayoutPanel1.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel1.TabIndex = 36;
+            this.AdoflowLayoutPanel1.TabIndex = 44;
             // 
             // AdopictureBox4
             // 
             this.AdopictureBox4.Location = new System.Drawing.Point(659, 33);
             this.AdopictureBox4.Name = "AdopictureBox4";
             this.AdopictureBox4.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox4.TabIndex = 35;
+            this.AdopictureBox4.TabIndex = 43;
             this.AdopictureBox4.TabStop = false;
             // 
             // AdopictureBox3
@@ -580,7 +683,7 @@
             this.AdopictureBox3.Location = new System.Drawing.Point(452, 33);
             this.AdopictureBox3.Name = "AdopictureBox3";
             this.AdopictureBox3.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox3.TabIndex = 34;
+            this.AdopictureBox3.TabIndex = 42;
             this.AdopictureBox3.TabStop = false;
             // 
             // AdopictureBox2
@@ -588,7 +691,7 @@
             this.AdopictureBox2.Location = new System.Drawing.Point(244, 33);
             this.AdopictureBox2.Name = "AdopictureBox2";
             this.AdopictureBox2.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox2.TabIndex = 33;
+            this.AdopictureBox2.TabIndex = 41;
             this.AdopictureBox2.TabStop = false;
             // 
             // AdopictureBox1
@@ -596,28 +699,28 @@
             this.AdopictureBox1.Location = new System.Drawing.Point(42, 33);
             this.AdopictureBox1.Name = "AdopictureBox1";
             this.AdopictureBox1.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox1.TabIndex = 32;
+            this.AdopictureBox1.TabIndex = 40;
             this.AdopictureBox1.TabStop = false;
             // 
-            // tabPage1
+            // AddonTab5
             // 
-            this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
-            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage1.Controls.Add(this.AdoflowLayoutPanel8);
-            this.tabPage1.Controls.Add(this.AdoflowLayoutPanel7);
-            this.tabPage1.Controls.Add(this.AdoflowLayoutPanel6);
-            this.tabPage1.Controls.Add(this.AdoflowLayoutPanel5);
-            this.tabPage1.Controls.Add(this.AdopictureBox8);
-            this.tabPage1.Controls.Add(this.AdopictureBox7);
-            this.tabPage1.Controls.Add(this.AdopictureBox6);
-            this.tabPage1.Controls.Add(this.AdopictureBox5);
-            this.tabPage1.Location = new System.Drawing.Point(184, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(870, 459);
-            this.tabPage1.TabIndex = 6;
-            this.tabPage1.Text = "Addons Choices 2";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.AddonTab5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AddonTab5.BackgroundImage")));
+            this.AddonTab5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AddonTab5.Controls.Add(this.AdoflowLayoutPanel8);
+            this.AddonTab5.Controls.Add(this.AdoflowLayoutPanel7);
+            this.AddonTab5.Controls.Add(this.AdoflowLayoutPanel6);
+            this.AddonTab5.Controls.Add(this.AdoflowLayoutPanel5);
+            this.AddonTab5.Controls.Add(this.AdopictureBox8);
+            this.AddonTab5.Controls.Add(this.AdopictureBox7);
+            this.AddonTab5.Controls.Add(this.AdopictureBox6);
+            this.AddonTab5.Controls.Add(this.AdopictureBox5);
+            this.AddonTab5.Location = new System.Drawing.Point(184, 4);
+            this.AddonTab5.Name = "AddonTab5";
+            this.AddonTab5.Padding = new System.Windows.Forms.Padding(3);
+            this.AddonTab5.Size = new System.Drawing.Size(870, 459);
+            this.AddonTab5.TabIndex = 7;
+            this.AddonTab5.Text = "Addon Choices 2";
+            this.AddonTab5.UseVisualStyleBackColor = true;
             // 
             // AdoflowLayoutPanel8
             // 
@@ -626,7 +729,7 @@
             this.AdoflowLayoutPanel8.Location = new System.Drawing.Point(659, 248);
             this.AdoflowLayoutPanel8.Name = "AdoflowLayoutPanel8";
             this.AdoflowLayoutPanel8.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel8.TabIndex = 47;
+            this.AdoflowLayoutPanel8.TabIndex = 55;
             // 
             // AdoflowLayoutPanel7
             // 
@@ -635,7 +738,7 @@
             this.AdoflowLayoutPanel7.Location = new System.Drawing.Point(452, 248);
             this.AdoflowLayoutPanel7.Name = "AdoflowLayoutPanel7";
             this.AdoflowLayoutPanel7.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel7.TabIndex = 46;
+            this.AdoflowLayoutPanel7.TabIndex = 54;
             // 
             // AdoflowLayoutPanel6
             // 
@@ -644,7 +747,7 @@
             this.AdoflowLayoutPanel6.Location = new System.Drawing.Point(244, 248);
             this.AdoflowLayoutPanel6.Name = "AdoflowLayoutPanel6";
             this.AdoflowLayoutPanel6.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel6.TabIndex = 45;
+            this.AdoflowLayoutPanel6.TabIndex = 53;
             // 
             // AdoflowLayoutPanel5
             // 
@@ -653,14 +756,14 @@
             this.AdoflowLayoutPanel5.Location = new System.Drawing.Point(42, 248);
             this.AdoflowLayoutPanel5.Name = "AdoflowLayoutPanel5";
             this.AdoflowLayoutPanel5.Size = new System.Drawing.Size(170, 178);
-            this.AdoflowLayoutPanel5.TabIndex = 44;
+            this.AdoflowLayoutPanel5.TabIndex = 52;
             // 
             // AdopictureBox8
             // 
             this.AdopictureBox8.Location = new System.Drawing.Point(659, 33);
             this.AdopictureBox8.Name = "AdopictureBox8";
             this.AdopictureBox8.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox8.TabIndex = 43;
+            this.AdopictureBox8.TabIndex = 51;
             this.AdopictureBox8.TabStop = false;
             // 
             // AdopictureBox7
@@ -668,7 +771,7 @@
             this.AdopictureBox7.Location = new System.Drawing.Point(452, 33);
             this.AdopictureBox7.Name = "AdopictureBox7";
             this.AdopictureBox7.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox7.TabIndex = 42;
+            this.AdopictureBox7.TabIndex = 50;
             this.AdopictureBox7.TabStop = false;
             // 
             // AdopictureBox6
@@ -676,7 +779,7 @@
             this.AdopictureBox6.Location = new System.Drawing.Point(244, 33);
             this.AdopictureBox6.Name = "AdopictureBox6";
             this.AdopictureBox6.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox6.TabIndex = 41;
+            this.AdopictureBox6.TabIndex = 49;
             this.AdopictureBox6.TabStop = false;
             // 
             // AdopictureBox5
@@ -684,7 +787,7 @@
             this.AdopictureBox5.Location = new System.Drawing.Point(42, 33);
             this.AdopictureBox5.Name = "AdopictureBox5";
             this.AdopictureBox5.Size = new System.Drawing.Size(170, 178);
-            this.AdopictureBox5.TabIndex = 40;
+            this.AdopictureBox5.TabIndex = 48;
             this.AdopictureBox5.TabStop = false;
             // 
             // Cafe_label2
@@ -696,7 +799,7 @@
             this.Cafe_label2.Name = "Cafe_label2";
             this.Cafe_label2.Size = new System.Drawing.Size(352, 58);
             this.Cafe_label2.TabIndex = 1;
-            this.Cafe_label2.Text = "\"CafeCheckout\"";
+            this.Cafe_label2.Text = "CafeCheckout";
             // 
             // ProductIdTextBox
             // 
@@ -886,38 +989,43 @@
             this.Controls.Add(this.QuantityTextBox);
             this.Controls.Add(this.ProductIdTextBox);
             this.Controls.Add(this.Cafe_label2);
-            this.Controls.Add(this.Menu_Tabs);
+            this.Controls.Add(this.MenuTab);
             this.DoubleBuffered = true;
             this.Name = "Kiosk_ordering";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kiosk_Ordering";
-            this.Menu_Tabs.ResumeLayout(false);
-            this.Beverage_1.ResumeLayout(false);
+            this.MenuTab.ResumeLayout(false);
+            this.ProductTab1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.Beverage_2.ResumeLayout(false);
+            this.ProductTab2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.Beverage_3.ResumeLayout(false);
+            this.ProductTab3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.Pastry_1.ResumeLayout(false);
+            this.ProductTab4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.AddOns_1.ResumeLayout(false);
+            this.ProductTab5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.AddonTab1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox1)).EndInit();
-            this.tabPage1.ResumeLayout(false);
+            this.AddonTab5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AdopictureBox6)).EndInit();
@@ -929,13 +1037,13 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2TabControl Menu_Tabs;
-        private System.Windows.Forms.TabPage Beverage_1;
-        private System.Windows.Forms.TabPage Beverage_2;
-        private System.Windows.Forms.TabPage Beverage_3;
-        private System.Windows.Forms.TabPage Pastry_1;
+        private Guna.UI2.WinForms.Guna2TabControl MenuTab;
+        private System.Windows.Forms.TabPage ProductTab1;
+        private System.Windows.Forms.TabPage ProductTab2;
+        private System.Windows.Forms.TabPage ProductTab3;
+        private System.Windows.Forms.TabPage ProductTab4;
         private Guna.UI2.WinForms.Guna2HtmlLabel Cafe_label2;
-        private System.Windows.Forms.TabPage AddOns_1;
+        private System.Windows.Forms.TabPage ProductTab5;
         private Guna.UI2.WinForms.Guna2TextBox ProductIdTextBox;
         private Guna.UI2.WinForms.Guna2TextBox QuantityTextBox;
         private Guna.UI2.WinForms.Guna2TextBox AddOnsIdTextBox;
@@ -946,7 +1054,7 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox AddOnsQuantityTextBox;
         private Guna.UI2.WinForms.Guna2Button Cancel;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage AddonTab1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
@@ -968,6 +1076,14 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel20;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel19;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel4;
         private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel2;
@@ -976,14 +1092,6 @@
         private System.Windows.Forms.PictureBox AdopictureBox3;
         private System.Windows.Forms.PictureBox AdopictureBox2;
         private System.Windows.Forms.PictureBox AdopictureBox1;
-        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel8;
-        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel7;
-        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel6;
-        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel5;
-        private System.Windows.Forms.PictureBox AdopictureBox8;
-        private System.Windows.Forms.PictureBox AdopictureBox7;
-        private System.Windows.Forms.PictureBox AdopictureBox6;
-        private System.Windows.Forms.PictureBox AdopictureBox5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
@@ -995,5 +1103,14 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
+        private System.Windows.Forms.TabPage AddonTab5;
+        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel8;
+        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel7;
+        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel6;
+        private System.Windows.Forms.FlowLayoutPanel AdoflowLayoutPanel5;
+        private System.Windows.Forms.PictureBox AdopictureBox8;
+        private System.Windows.Forms.PictureBox AdopictureBox7;
+        private System.Windows.Forms.PictureBox AdopictureBox6;
+        private System.Windows.Forms.PictureBox AdopictureBox5;
     }
 }

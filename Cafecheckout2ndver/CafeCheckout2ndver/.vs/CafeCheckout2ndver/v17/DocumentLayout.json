@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\cafecheckout2ndver\\kiosk_ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\kiosk_ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\cafecheckout2ndver\\kiosk_ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\kiosk_ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|c:\\users\\mark rainier\\onedrive\\documents\\cafecheckout2ndver\\cafecheckout2ndver\\cafecheckout2ndver\\kiosk_landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\kiosk_landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\cafecheckout2ndver\\kiosk_landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\kiosk_landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\cafecheckout2ndver\\onscreenkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\onscreenkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\cafecheckout2ndver\\about us.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD7B3E0D-6D81-48D0-9B84-E17A8F15DDA2}|CafeCheckout2ndver\\CafeCheckout2ndver.csproj|solutionrelative:cafecheckout2ndver\\about us.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kiosk_ordering.cs",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "RelativeToolTip": "CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:21:02.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kiosk_landing.cs",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_landing.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\Kiosk_landing.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_landing.cs",
+              "RelativeToolTip": "CafeCheckout2ndver\\Kiosk_landing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:20:12.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OnScreenKeyboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\OnScreenKeyboard.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\OnScreenKeyboard.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\OnScreenKeyboard.cs [Design]",
+              "RelativeToolTip": "CafeCheckout2ndver\\OnScreenKeyboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:52:57.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kiosk_ordering.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\Kiosk_ordering.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_ordering.cs [Design]",
+              "RelativeToolTip": "CafeCheckout2ndver\\Kiosk_ordering.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:52:53.27Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kiosk_landing.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_landing.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\Kiosk_landing.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\Kiosk_landing.cs [Design]*",
+              "RelativeToolTip": "CafeCheckout2ndver\\Kiosk_landing.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:52:48.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "About Us.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\About Us.cs",
+              "RelativeDocumentMoniker": "CafeCheckout2ndver\\About Us.cs",
+              "ToolTip": "C:\\Users\\Mark Rainier\\OneDrive\\Documents\\Cafecheckout2ndver\\CafeCheckout2ndver\\CafeCheckout2ndver\\About Us.cs [Design]",
+              "RelativeToolTip": "CafeCheckout2ndver\\About Us.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:52:46.016Z"
             }
           ]
         }

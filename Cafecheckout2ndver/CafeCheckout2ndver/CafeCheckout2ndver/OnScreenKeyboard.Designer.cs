@@ -26,11 +26,15 @@ namespace CafeCheckout2ndver
         }
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OnScreenKeyboard));
             this.SuspendLayout();
             // 
             // OnScreenKeyboard
             // 
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1027, 300);
+            this.DoubleBuffered = true;
             this.Name = "OnScreenKeyboard";
             this.Text = "On-Screen Keyboard";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OnScreenKeyboard_FormClosing);
